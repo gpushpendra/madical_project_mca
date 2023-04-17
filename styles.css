@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  background: -webkit-linear-gradient(to right, #155799, #159957);
+  background: linear-gradient(to right, #155799, #159957);
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #8db2d6, #159957);
+
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+input[type=text] {
+  width: 800px;
+  margin-right: 10px;
+  border-radius: 25px;
+  padding: 6px 18px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: #030804;
+  color: white;
+  padding: 6px 30px;
+  border-radius: 25px;
+  margin: 7px 0;
+  font-size: 10px;
+}
+
+button[type=submit]:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+ul li:first-child {
+  margin-left: 0;
+}
+
+ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.headingsContainer {
+  text-align: center;
+}
+
+.headingsContainer p {
+  color: gray;
+}
+
+.mainContainer {
+  padding: 16px;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subcontainer a {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+span.forgotpsd a {
+  float: right;
+  color: whitesmoke;
+  padding-top: 16px;
+}
+
+.forgotpsd a {
+  color: rgb(74, 146, 235);
+}
+
+.forgotpsd a:link {
+  text-decoration: none;
+}
+
+.register {
+  color: white;
+  text-align: center;
+}
+
+.register a {
+  color: rgb(74, 146, 235);
+}
+
+.register a:link {
+  text-decoration: none;
+}
+
+/* Media queries for the responsiveness of the page */
+@media screen and (max-width: 600px) {
+  input[type=text] {
+   
+  }}

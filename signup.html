@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>PharmaGuide Signup</title>
+</head>
+<body>
+    <h1>PharmaGuide Signup</h1>
+    <form method="POST" action="/signup">
+        <!-- Headings for the form -->
+        <div class="headingsContainer">
+            <h3>Sign up</h3>
+            <p>Create your account</p>
+        </div>
+
+        <!-- Main container for all inputs -->
+        <div class="mainContainer">
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <br><br>
+
+            <!-- Confirm Password -->
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <br><br>
+
+            <!-- Submit button -->
+            <button type="submit" value="submit">Sign Up</button>
+
+            <!-- Login link -->
+            <p class="register">Already a member?  <a href="/loginpg.html">Login here!</a></p>
+        </div>
+    </form>
+</body>
+</html>
